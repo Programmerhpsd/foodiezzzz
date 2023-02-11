@@ -1,0 +1,97 @@
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100rem;
+    margin: 10px 14px;
+}
+#navbar{
+display: flex;
+align-items: center;
+border-radius: 10rem;
+}
+
+ul{
+display: flex;
+}
+#navbar ul li{
+margin: 10px;
+list-style: none;
+}
+#navbar ul li a{
+background-color:black;
+display: block;
+padding: 10px 12px;
+text-decoration: none;
+border-radius: 10rem;
+}
+#navbar ul li a:hover{
+    background-color:rgba(238, 227, 5, 0.933);
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 10rem;
+    }
+#home{
+   background-color: url(../salad-g23ba8ee85_1280.jpg);
+}
+#navbar p{font-family:cursive;
+color: white;
+font-size: large;}
+button{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10rem;
+    margin: 10px;
+    list-style: none;
+}
+#services h1{
+    text-align: center;
+    font-family:'Lobster';
+}
+#left img{
+    border-radius: 1rem;
+    }
+#left{
+    margin: 10px;
+    float: left;
+    padding: 40px;
+    border-color: rgb(97, 21, 169);
+    width:300px;
+    background-color: rgb(246, 228, 228);
+    border-radius: 1rem;
+}
+#right{
+    margin: 10px;
+    background-color: rgb(172, 246, 246);
+    float: right;
+   padding: 40px;
+    border-color: rgb(97, 21, 169);
+    width:300px;
+    border-radius: 1rem;
+}
+#center{
+    margin: 10px;
+        float: left;
+        padding: 40px;
+        border-color: rgb(97, 21, 169);
+        width:300px;
+        background-color: blanchedalmond;
+       border-radius: 1rem; 
+       
+}
+#services{
+    display:flex;
+    text-align: center;
+    display: block;
+    border-color: blue;
+} 
+body{background-color: aliceblue;}
+#CONTACTUS{
+ 
+   text-align: center;
+   margin: 10px;
+}
+#CONTACTUS p{
+    size: 11CM;
+}
